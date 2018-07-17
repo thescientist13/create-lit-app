@@ -62,13 +62,16 @@ const helpers = [
 
 const commonConfig = merge([
   {
-    entry: './src/index.js',
+    entry: './src/index.ts',
     output: {
       path: OUTPUT_PATH,
       filename: '[name].[chunkhash:8].js'
     },
     module: {
       rules: [
+        { 
+          test: /\.ts(x?)$/, loader: 'ts-loader' 
+        },
         {
           test: /\.js$/,
           // We need to transpile Polymer, do not exclude node_modules
@@ -142,6 +145,7 @@ const productionConfig = merge([
     ]
   }
 ]);
+
 
 module.exports = mode => {
   if (mode === 'production') {

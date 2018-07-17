@@ -4,10 +4,10 @@ import { Router } from '@vaadin/router';
 
 import '@polymer/paper-button/paper-button';
 
-import './components/home-page.js';
-import './components/books-demo.js';
-import './components/redux-demo.js';
-import './components/not-found.js';
+import './components/home-page.ts';
+import './components/books-demo.ts';
+import './components/redux-demo.ts';
+import './components/not-found.ts';
 
 import { AppStyles } from './styles/AppStyles';
 
@@ -23,6 +23,8 @@ class LitApp extends LitElement {
           {path: '(.*)', component: 'not-found'}
 	    ]);
 	}
+
+
 
 	_render() {
 		return html`

@@ -2,4 +2,4 @@
 
 /* Import WebpackApp */
 
-import './create-lit-app/lit-app';
+import './create-lit-app/lit-app.ts';
