@@ -7,6 +7,8 @@ import { connect } from 'pwa-helpers/connect-mixin.js';
 import { store } from '../../store.js';
 
 class ReduxDemo extends connect(store)(LitElement) {
+  count: number;
+
   static get properties() {
     return {
       count: Number
