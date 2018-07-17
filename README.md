@@ -1,3 +1,7 @@
+# Work in progress!
+
+[![Build Status](https://travis-ci.org/thepassle/create-lit-app.svg?branch=typescript)](https://travis-ci.org/thepassle/create-lit-app)
+
 # Create-lit-app
 
 Demo:
