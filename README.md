@@ -1,6 +1,6 @@
-# Work in progress!
-
 [![Build Status](https://travis-ci.org/thepassle/create-lit-app.svg?branch=typescript)](https://travis-ci.org/thepassle/create-lit-app)
+
+This branch is WIP. Typescript is set up, but still setting up tests.
 
 # Create-lit-app
 
