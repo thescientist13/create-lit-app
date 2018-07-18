@@ -52,17 +52,6 @@ Run tests:
 npm run test
 ```
 
-## Build with webpack
-
-Run the production build:
-
-```sh
-npm run build
-node server.js
-```
-
-As easy as that! Next you can upload it to heroku/digital ocean/whatever.
-
 ## Credits/helpful links
 * The incredibly helpful web-padawan and his [polymer3-webpack-starter](https://github.com/web-padawan/polymer3-webpack-starter)
 * These excellent [LitHTML examples](https://github.com/LarsDenBakker/lit-html-examples) by Lars den Bakker
