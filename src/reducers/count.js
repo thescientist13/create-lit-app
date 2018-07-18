@@ -4,7 +4,7 @@ import {
 } from '../actions/count';
 
 const initialState = {
-  count: 0,
+  count: 0
 };
 
 export default function counter(state = initialState, action) {
