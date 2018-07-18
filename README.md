@@ -38,7 +38,7 @@ npm i
 
 ## Start the development server
 
-Start `webpack-dev-server` on localhost `http://127.0.0.1:3000`:
+Start `polymer serve` on localhost `http://127.0.0.1:8081`:
 
 ```sh
 npm run start
