@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^2.0.0",
-    "wct-browser-legacy": "^1.0.0"
+    "wct-browser-legacy": "^1.0.1"
   },
   "scripts": {
     "start": "nodemon server.js | npm run watch | polymer serve --proxy-path /api/books --proxy-target http://localhost:8000/api/books",
