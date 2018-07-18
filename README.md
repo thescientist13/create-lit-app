@@ -52,6 +52,14 @@ Run tests:
 npm run test
 ```
 
+## Build
+
+Run build:
+
+```sh
+polymer build
+```
+
 ## Credits/helpful links
 * The incredibly helpful web-padawan and his [polymer3-webpack-starter](https://github.com/web-padawan/polymer3-webpack-starter)
 * These excellent [LitHTML examples](https://github.com/LarsDenBakker/lit-html-examples) by Lars den Bakker
