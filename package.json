@@ -69,6 +69,11 @@
     "eslint-config-vaadin": "^0.2.5",
     "html-webpack-plugin": "^4.0.0-alpha",
     "husky": "^0.14.3",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.4",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.0",
     "lint-staged": "^7.2.0",
     "regenerator-runtime": "^0.12.0",
     "ts-loader": "^4.4.2",
@@ -86,7 +91,7 @@
     "lint": "eslint src/app/*.js src/views/*.js src/styles/*.js",
     "postinstall": "node utils/generate-helpers.js && npm run build",
     "start": "webpack-dev-server --env development | nodemon server.js",
-    "test": "polymer test",
+    "test": "karma start karma.conf.js",
     "test:chrome": "polymer test --local chrome"
   }
 }
