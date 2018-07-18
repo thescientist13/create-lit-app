@@ -18,6 +18,7 @@ Create-lit-app is something I put together after struggling to set up an app for
 
 Optionally:
 * Typescript (check out the typescript branch)
+* No-webpack (check out the no-webpack branch)
 
 I made this repo to make it easier for other people like me to get started making a LitHTML app.
 
