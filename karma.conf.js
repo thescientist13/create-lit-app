@@ -17,7 +17,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        './src/create-lit-app/components/home-page.ts',
+        './src/**/*.*',
         'test/*.js'
     ],
 
