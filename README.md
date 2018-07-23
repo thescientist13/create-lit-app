@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thepassle/create-lit-app.svg?branch=no-webpack)](https://travis-ci.org/thepassle/create-lit-app)
+![Build Status](https://travis-ci.org/thepassle/create-lit-app.svg?branch=no-webpack)](https://travis-ci.org/thepassle/create-lit-app) ![Mentioned in Awesome lit-html](https://awesome.re/mentioned-badge.svg)](https://github.com/web-padawan/awesome-lit-html)
 
 # Create-lit-app
 
@@ -15,9 +15,7 @@ Create-lit-app is something I put together after struggling to set up an app for
 * Build with webpack
 
 
-Optionally:
-* Typescript (check out the typescript branch)
-* No-webpack (check out the no-webpack branch)
+Do you want to use webpack for building instead? Check out [this branch](https://github.com/thepassle/create-lit-app/tree/master)
 
 I made this repo to make it easier for other people like me to get started making a LitHTML app.
 
