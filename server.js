@@ -1,3 +1,4 @@
+/* eslint-env node, mocha */
 const express = require('express');
 const bodyParser = require('body-parser');
 const routes = require('./routes/api');
@@ -12,5 +13,5 @@ app.get('*', function(req, res) {
 });
 
 app.listen(process.env.PORT || 8000, function () {
-    console.log('Express server is running on port 8000');
+    console.log('Express server is running on port 8000'); // eslint-disable-line no-console
 });

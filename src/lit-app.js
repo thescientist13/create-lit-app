@@ -4,11 +4,13 @@ import { Router } from '@vaadin/router';
 
 import '@polymer/paper-button/paper-button';
 
-import './components/home-page.js';
-import './components/books-demo.js';
-import './components/redux-demo.js';
-import './components/not-found.js';
+import './components/home-page';
+import './components/books-demo';
+import './components/redux-demo';
+import './components/not-found';
 
+import polymerLogo from './assets/logo.svg';
+import githubLogo from './assets/github.svg';
 import { AppStyles } from './styles/AppStyles';
 
 class LitApp extends LitElement {
@@ -29,8 +31,8 @@ class LitApp extends LitElement {
 			${AppStyles}
 			<div class="app">
 				<header class="app-header">
-					<img src="../assets/logo.svg" class="app-logo" alt="logo" />
-					<h1 class="app-title">Welcome to LitHTML</h1>
+					<img src="${polymerLogo}" class="app-logo" alt="logo" />
+					<h1 class="app-title">Welcome to Create Lit App</h1>
 				</header>
 
 				<div class="app-links">
@@ -42,7 +44,7 @@ class LitApp extends LitElement {
 				<div id="outlet"></div>
 
 				<a href="https://github.com/thepassle/create-lit-app">
-					<img src="../assets/github.svg" class="app-gh" alt />
+					<img src="${githubLogo}" class="app-gh" alt />
 				</a>
 			</div>
 		`;

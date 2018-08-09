@@ -57,10 +57,17 @@ Run the production build:
 
 ```sh
 npm run build
-node server.js
 ```
 
-As easy as that! Next you can upload it to heroku/digital ocean/whatever.
+## Build with webpack and serve
+
+Run the serve task:
+
+```sh
+npm run serve
+```
+
+As easy as that! Next you can upload the contents of the _./dist/_ folder to heroku/digital ocean/whatever.
 
 ## Contributing
 
